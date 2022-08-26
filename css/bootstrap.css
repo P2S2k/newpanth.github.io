@@ -3092,6 +3092,15 @@ label {
     margin-bottom: 5px;
     font-weight: 700
 }
+.citation{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.signature{
+    font-size: 22px;
+    color: red;
+}
 
 input[type=search] {
     -webkit-box-sizing: border-box;
