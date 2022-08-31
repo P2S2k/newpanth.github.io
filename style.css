@@ -372,7 +372,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #030303;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -474,6 +474,8 @@ button {
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
+
+
 
 .icon-md {
     font-size: 30px!important;
@@ -638,7 +640,7 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+ 
 h1,
 h2,
 h3,
@@ -651,9 +653,24 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000;
+}
+.grey {
+    font-family: "helvetica";
+    font-size: 22px;
+    color: #767676 !important;
 }
 
+.big-text{
+    font-size: 22px;
+}
+.up15-text{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+    line-height: 16px;
+}
 .container {
     max-width: 1000px;
 }
@@ -677,7 +694,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -702,6 +719,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: white;
 }
 
 h2 {
@@ -771,15 +789,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BA5C1D;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F2CCBC!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BA5C1D;
     color: #FFFFFF!important;
 }
 
