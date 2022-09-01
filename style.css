@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    /*padding: 0 50px;*/
+    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -263,7 +263,10 @@ a:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-
+.space{
+    width: 100%;
+    height: 40px;
+}
 .voffset {
     margin-top: 30px;
 }
@@ -438,6 +441,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .mg-lg {
@@ -662,8 +667,9 @@ a {
 }
 
 .big-text{
-    font-size: 22px;
+    font-size: 180%;
 }
+/*
 .up15-text{
     font-size: 15px;
     text-transform: uppercase;
@@ -671,6 +677,7 @@ a {
     color: #333333!important;
     line-height: 16px;
 }
+*/
 .container {
     max-width: 1000px;
 }
@@ -793,7 +800,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F2CCBC!important;
+    color: #F3CCBC!important;
 }
 
 .btn-atomic-tangerine {
@@ -855,6 +862,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .space{
+        height: 0;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -863,6 +873,9 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+    .space{
+        height: 0;
     }
 }
 
@@ -875,6 +888,9 @@ h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .space{
+        height: 0;
     }
 }
 
@@ -1056,5 +1072,10 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+@media (min-width: 1024px){
+    .space{
+        height: 0;
     }
 }
