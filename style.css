@@ -1,3 +1,4 @@
+
 body {
     margin : 0;
     padding : 0;
@@ -503,6 +504,9 @@ body {
     max-width : 400px;
     margin : auto auto auto auto;
     color : white;
+    }
+    .coordonnees {
+        margin-bottom: 20px;
     }
     h2 {
     font-size : 22px;
